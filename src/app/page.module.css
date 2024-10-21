@@ -1,0 +1,131 @@
+.container {
+  background-color: #fff7f7; /* Latar belakang pastel pink lembut */
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', serif;
+  color: #4b2e2e; /* Warna teks cokelat lembut */
+}
+
+.title {
+  font-family: 'Playfair Display', serif; /* Font anggun untuk judul */
+  font-size: 35px;
+  color: #b36363; /* Warna merah muda pastel untuk judul */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.produk {
+  font-family: 'Playfair Display', serif;
+  color: #5d1f1f; 
+  font-size: 15px;
+  text-align: left;
+}
+
+.tmproduk{
+  padding: 10px;
+  border: 2px solid #966b6b; /* Border merah muda pucat */
+  border-radius: 8px;
+  background-color: #fff; /* Latar belakang putih */
+  color: #4b2e2e;
+  font-family: 'Georgia', serif;
+  font-size: 1em;
+}
+
+.tabel {
+  padding: 2px;
+  border: 2px solid #a26161; /* Border merah muda pucat */
+  border-radius: 5px;
+  background-color: #fefefe; /* Latar belakang putih */
+  color: #925a5a;
+  font-family: 'Georgia', serif;
+}
+
+.strong {
+  padding: 5px;
+  border: 2px solid #f0dada; /* Border merah muda pucat */
+  border-radius: 5px;
+  background-color: #aa7272; /* Latar belakang putih */
+  color: #ffffff;
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.strong:hover {
+  background-color:  #6a1515; /* Warna latar saat di-hover */
+}
+
+.strong:active {
+  background-color: #f0dada; /* Warna latar saat di-klik */
+}
+
+.label {
+  font-family: 'Playfair Display', serif;
+  color: #4b2e2e;
+}
+
+.tambahproduk {
+  padding: 5px;
+  border: 2px solid #f0dada; /* Border merah muda pucat */
+  border-radius: 5px;
+  background-color: #aa7272; /* Latar belakang putih */
+  color: #ffffff;
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.tambahproduk:hover {
+  background-color: #6a1515; /* Warna latar saat di-hover */
+}
+
+.tambahproduk:active {
+  background-color: #f0dada; /* Warna latar saat di-klik */
+}
+
+.carinm {
+  padding: 2px;
+  border: 2px solid #a26161; /* Border merah muda pucat */
+  border-radius: 5px;
+  background-color: #fefefe; /* Latar belakang putih */
+  color: #925a5a;
+  font-family: 'Georgia', serif;
+}
+
+.div {
+  margin-bottom: 10px;
+}
+
+.input
+select:focus {
+  border-color: #b36363; 
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+    width: 95%;
+  }
+
+  .h1 {
+    font-size: 2em;
+  }
+
+  .button {
+    padding: 8px 16px;
+  }
+}
+
